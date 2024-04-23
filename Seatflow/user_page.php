@@ -31,7 +31,7 @@ $row = mysqli_fetch_array($result);
    
 <header>
         <nav class="navbar">
-            <a href="Home.php" class="img">SeatFlow <span>.</span></a>         
+            <a href="user_page.php" class="img">SeatFlow <span>.</span></a>         
         </nav>
 </header>
 
@@ -47,6 +47,15 @@ $row = mysqli_fetch_array($result);
                 <span style="color:white">SitIn History</span>
             </div>
 
+            <div class="box" data-color="clr2">
+                <div class="imgBx"><img src=""></div>
+                <div class="glass">
+                    <ul>
+                        <a href="user_settings.php" style="--i:1;"><ion-icon name="radio-button-on-outline"></ion-icon></a>
+                    </ul>
+                </div>
+                <span style="color:white">Settings</span>
+            </div>
             <div class="box" data-color="clr2">
                 <div class="imgBx"><img src=""></div>
                 <div class="glass">

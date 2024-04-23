@@ -31,21 +31,19 @@ $conn->close();
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>admin page</title>
     <script src="https://cdn.tailwindcss.com"></script>
-
-   <!-- custom css file link  -->
-   <link rel="stylesheet" href="../css/dashboard_admin.css">
+   <link rel="stylesheet" href="css/dashboards.css">
 
 </head>
 <body>
    
 <header>
     <nav class="navbar">
-        <a href="./" class="img">SeatFlow <span>.</span></a>         
+        <a href="user_page.php" class="img">SeatFlow <span>.</span></a>         
     </nav>
 </header>
 
 <div class="container1">
- <table class="mt-5 w-full text-sm text-left rtl:text-right text-white rounded-md  ">
+ <table class="mt-5 w-full text-sm text-left rtl:text-right text-white rounded-md mb-32 ">
                 <thead class="text-xs bg-[#151318] border border-white  uppercase border-b-0">
                     <tr>
                         <th class="border px-4 py-4 font-medium border-none text-center font-bold">ID NO

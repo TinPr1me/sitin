@@ -32,21 +32,22 @@ if(isset($_POST['submit'])){
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>SeatFlow | Login</title>
-
+   <script src="https://cdn.tailwindcss.com"></script>
    <link rel="stylesheet" href="css/styles1.css">
 
 </head>
 <body>
 <header>
         <nav class="navbar">
-            <a href="Home.php" class="img">SeatFlow <span>.</span></a>         
+            <a href="Seatflow/Home.php" class="img">SeatFlow <span>.</span></a>         
         </nav>
 </header>
 
 <div class="form-container">
 
    <form action="" method="post">
-      <h3>login now</h3>
+      <h3 class="font-bold text-lg">login now</h3>
+      <p class="flex justify-center gap-2 text-sm">Login as <a href="admin/admin_history.php" class="flex justify-center">   ADMIN</a></p>
       <?php
       if(isset($error)){
          foreach($error as $error){
